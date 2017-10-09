@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<!--
+   roulette.html
+
+   Copyright 2017 music <music@HYBRIDE>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+-->
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
+  <title>Butin</title>
+  <script src='../js/def.js'></script>
+  <script src='../js/roulette.js'></script>
+  <script src='../js/stuff.js'></script>
+  <style>
+    .commun {
+      color: #4d4d4d;
+      /*Gris*/
+    }
+
+    .peuCommun {
+      color: #008000;
+      /*vert*/
+    }
+
+    .rare {
+      color: #0000cc;
+      /*Bleu*/
+    }
+
+    .epique {
+      color: #cc8500;
+      /*Orange*/
+    }
+
+    .legendaire {
+      color: #b30000;
+      /*Rouge*/
+    }
+
+    .mythique {
+      color: #800080;
+      /*Violet*/
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="infos.html">
+    <button id='inv' class="btn">Infos</button>
+  </a>
+
+  <br />
+  <br />
+
+  <button id='lot' class="btn">Loterie</button>
+
+  <br />
+  <br />
+
+  <button id='play' class="btn">Loot</button>
+
+  <div class="infoButton">
+    <p id='count'>0</p>
+    <h1 id='butin' class='butin'></h1>
+  </div>
+
+  <table id='inventaire' class="table-fill">
+    <tr>
+      <div class="table-title">
+        <th colspan='5'>BUTIN</th>
+      </div>
+    </tr>
+    <tr>
+      <th>Nom</th>
+      <th>Quantité</th>
+      <th>Description</th>
+      <th>Effet</th>
+      <th>Classe</th>
+    </tr>
+  </table>
+
+</body>
+
+</html>
