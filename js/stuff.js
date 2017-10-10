@@ -1,27 +1,52 @@
 var stuff = {
 	"commun": [
-	//Épée
+	//Épées
 		{ "number": 0, "nom": "Épée en fer émoussé", "desc": "Une épée dont la lame est émoussée", "effet": "Émoussé : L'arme n'inflige que la moitié de ses dégâts normaux", "classe": "P - P/F" },
 		{ "number": 0, "nom": "Épée en argent", "desc": "Une épée en argent de faible qualité", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "P - P/F" },
 		{ "number": 0, "nom": "Épée en fer", "desc": "Une épée en acier basique", "effet": "Aucun", "classe": "P - P/F" },
-	//Espadon 
+	//Espadons 
 		{ "number": 0, "nom": "Espadon en fer brisé", "desc": "Un espadon brisé en deux", "effet": "Brisé : L'arme n'inflige que la moitié de ses dégâts normaux", "classe": "P" },
 		{ "number": 0, "nom": "Espadon en argent", "desc": "Un espadon en argent", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "P" },
 		{ "number": 0, "nom": "Espadon en acier", "desc": "Un espadon en fer ordinaire", "effet": "Aucun", "classe": "P" },
-	//Dague
+	//Dagues
 		{ "number": 0, "nom": "Dague fêlée", "desc": "Un dague très abîmée", "effet": "Usée : L'arme n'inflige que la moitié de ses dégâts normaux", "classe": "F - F/S" },
 		{ "number": 0, "nom": "Dague en argent", "desc": "Une dague en argent de piêtre qualitée", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F - F/S" },
 		{ "number": 0, "nom": "Dague en fer", "desc": "Une dague en fer", "effet": "Aucun", "classe": "F - F/S" },
-	//Arc
+	//Arcs
 		{ "number": 0, "nom": "Arc moisie", "desc": "Un arc dont le bois est moisie", "effet": "Moisie : L'arme a 1 chance sur 3 de se briser en attaquant avec", "classe": "F" },
-		{ "number": 0, "nom": "Flèches en bois", "desc": "Un arc fait pour tirer des flèches d'argents", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F" },
-		{ "number": 0, "nom": "Dague en fer", "desc": "Une dague en fer", "effet": "Aucun", "classe": "F" },],
-
+		{ "number": 0, "nom": "Arc en argent", "desc": "Un arc fait pour tirer des flèches d'argents", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F" },
+		{ "number": 0, "nom": "Arc en bois", "desc": "Un arc simple en bois", "effet": "Aucun", "classe": "F" },
+	//Arbalètes
+		{ "number": 0, "nom": "Arbalète craquelée moisie", "desc": "Une arbalète dont le bois est fendu", "effet": "Mauvais état : L'arme a 1 chance sur 3 de se briser en attaquant avec", "classe": "P/F" },
+		{ "number": 0, "nom": "Arbalète en argent", "desc": "Une arbalète faite pour tirer des carreaux d'argents", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "P/F" },
+		{ "number": 0, "nom": "Arc en bois", "desc": "Une arbalète simple en bois", "effet": "Aucun", "classe": "P/F" },
+	//Grimoires
+		{ "number": 0, "nom": "Grimoire moisie", "desc": "Un grimoire dont les pages ont moisies", "effet": "Mauvais état : 1 chance sur 3 de mal lire les incantations de rater votre prochain sort", "classe": "S" },
+		{ "number": 0, "nom": "Grimoire de monstres", "desc": "Un grimoire contenant des incantations contre les monstres", "effet": "Anti-monstres : Dégâts normaux contre les monstres", "classe": "S" },
+		{ "number": 0, "nom": "Grimoire basique", "desc": "Un grimoire basique", "effet": "Aucun", "classe": "S" },
+	//Bâtons
+		{ "number": 0, "nom": "Bâton brisé en bois", "desc": "Un bâton magique au manche cassé", "effet": "Mauvais état : L'arme a 1 chance sur 3 de se briser en attaquant avec", "classe": "P/S" },
+		{ "number": 0, "nom": "Bâton en argent", "desc": "Un bâton feuilleté d'argent", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "P/S" },
+		{ "number": 0, "nom": "Bâton en bois", "desc": "Un bâton simple en bois", "effet": "Aucun", "classe": "P/S" },
+	//Chakrams
+		{ "number": 0, "nom": "Chakram en fer rouillé", "desc": "Un Chakram rouillé de très faible qualité", "effet": "Rouillé : L'arme a 1 chance sur 3 de vous blesser de 2pv quand vous attaquer avec", "classe": "P/S" },
+		{ "number": 0, "nom": "Chakram en argent", "desc": "Un Chakram feuilleté d'argent", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "P/S" },
+		{ "number": 0, "nom": "Chakram en fer", "desc": "Un Chakram simple en fer", "effet": "Aucun", "classe": "P/S" },
+	//Lames d'éther
+		{ "number": 0, "nom": "Lame d'éther à faible affaiblie", "desc": "L'éther de cette lame semble s'être affaiblie", "effet": "Rouillé : L'arme a 1 chance sur 3 de vous blesser de 2pv quand vous attaquer avec", "classe": "F/S" },
+		{ "number": 0, "nom": "Lame d'éther argenté", "desc": "L'éther de cette lame est efficace contre les monstres", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F/S" },
+		{ "number": 0, "nom": "Lame d'éther", "desc": "Une lame d'éther commune", "effet": "Aucun", "classe": "F/S" },
+	//Chaines
+		{ "number": 0, "nom": "Chaine en fer rouillée", "desc": "Une chaine en fer rouillé capable d'immobilisé une cible", "effet": "Rouillé : L'arme a 1 chance sur 3 de vous blesser de 2pv quand vous attaquer avec", "classe": "P/F/S" },
+		{ "number": 0, "nom": "Chaîne d'argent", "desc": "Une chaine en argent capable d'immobilisé un monstre", "effet": "Argent : Peut immobiliser les monstres", "classe": "P/F/S" },
+		{ "number": 0, "nom": "Chaine en fer", "desc": "Une chaine en fer commune", "effet": "Aucun", "classe": "P/F/S" },
+	//Lames Elfiques
+		{ "number": 0, "nom": "Lame Elfique en fer", "desc": "Bien qu'ayant la forme d'une épée elfique, cette lame est sans doute une contrefaçon", "effet": "Contrefaçon : L'arme n'inflige que 1/3 des dégâts normaux", "classe": "F - P/F" },
+		{ "number": 0, "nom": "Lame Eflique argentée", "desc": "Une belle lame Elfique en argent", "effet": "Argent elfique : Bonus de dégâts de 1d5 contre les monstres", "classe": "F/S" },
+		{ "number": 0, "nom": "Lame Elfique en acier", "desc": "Une lame elfique en acier", "effet": "Aucun", "classe": "F/S" },],
 	"peuCommun": [
 		{ "number": 0, "nom": "Arc solide", "desc": "Un arc puissant", "effet": "Aucun" },
-		{ "number": 0, "nom": "Épée bâtarde", "desc": "Épée bâtarde à double tranchant", "effet": "Double coup : Une fois par attaque, vous avez 15% de chance d'infliger une deuxième fois la moitié des dégâts infligés par le premier coup" },
-		{ "number": 0, "nom": "Capuchon de voleur", "desc": "Un capuchon dissimulant le visage", "effet": "Furtivité : Augmente les dégâts de 10% quand vous menez une attaque furtive" },
-		{ "number": 0, "nom": "Capuchon de voleur", "desc": "Un capuchon dissimulant le visage", "effet": "Furtivité : Augmente les dégâts de 10% quand vous menez une attaque furtive", "classe": "Aucun" }],
+		{ "number": 0, "nom": "Épée bâtarde", "desc": "Épée bâtarde à double tranchant", "effet": "Double coup : Une fois par attaque, vous avez 15% de chance d'infliger une deuxième fois la moitié des dégâts infligés par le premier coup" },],
 
 	"rare": [
 		{ "number": 0, "nom": "Arc à double courbure", "desc": "Un arc de guerre très puissant", "effet": "", "classe": "Aucun" }],
