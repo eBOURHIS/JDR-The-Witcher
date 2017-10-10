@@ -33,8 +33,8 @@ var stuff = {
 		{ "number": 0, "nom": "Chakram en argent", "desc": "Un Chakram feuilleté d'argent", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "P/S" },
 		{ "number": 0, "nom": "Chakram en fer", "desc": "Un Chakram simple en fer", "effet": "Aucun", "classe": "P/S" },
 	//Lames d'éther
-		{ "number": 0, "nom": "Lame d'éther à faible affaiblie", "desc": "L'éther de cette lame semble s'être affaiblie", "effet": "Rouillé : L'arme a 1 chance sur 3 de vous blesser de 2pv quand vous attaquer avec", "classe": "F/S" },
-		{ "number": 0, "nom": "Lame d'éther argenté", "desc": "L'éther de cette lame est efficace contre les monstres", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F/S" },
+		{ "number": 0, "nom": "Lame d'éther affaiblie", "desc": "L'éther de cette lame semble s'être affaiblie", "effet": "Rouillé : L'arme a 1 chance sur 3 de vous blesser de 2pv quand vous attaquer avec", "classe": "F/S" },
+		{ "number": 0, "nom": "Lame d'éther argentée", "desc": "L'éther de cette lame est efficace contre les monstres", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F/S" },
 		{ "number": 0, "nom": "Lame d'éther", "desc": "Une lame d'éther commune", "effet": "Aucun", "classe": "F/S" },
 	//Chaines
 		{ "number": 0, "nom": "Chaine en fer rouillée", "desc": "Une chaine en fer rouillé capable d'immobilisé une cible", "effet": "Rouillé : L'arme a 1 chance sur 3 de vous blesser de 2pv quand vous attaquer avec", "classe": "P/F/S" },
@@ -43,7 +43,20 @@ var stuff = {
 	//Lames Elfiques
 		{ "number": 0, "nom": "Lame Elfique en fer", "desc": "Bien qu'ayant la forme d'une épée elfique, cette lame est sans doute une contrefaçon", "effet": "Contrefaçon : L'arme n'inflige que 1/3 des dégâts normaux", "classe": "F - P/F" },
 		{ "number": 0, "nom": "Lame Eflique argentée", "desc": "Une belle lame Elfique en argent", "effet": "Argent elfique : Bonus de dégâts de 1d5 contre les monstres", "classe": "F/S" },
-		{ "number": 0, "nom": "Lame Elfique en acier", "desc": "Une lame elfique en acier", "effet": "Aucun", "classe": "F/S" },],
+		{ "number": 0, "nom": "Lame Elfique en acier", "desc": "Une lame elfique en acier", "effet": "Aucun", "classe": "F/S" },
+	//Faux
+		{ "number": 0, "nom": "Faux abîmée en fer", "desc": "Une faux très endomagée et presque inutilisable", "effet": "Mauvais état : L'arme n'inflige que 1/3 des dégâts normaux", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Faux en argent", "desc": "Une grande faux en argent", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Faux en fer", "desc": "Une faux en fer banale", "effet": "Aucun", "classe": "F - F/S" },
+	//Armes de Pugilat
+		{ "number": 0, "nom": "Griffes en fer cassé", "desc": "Des griffes faites d'un acier fort rouillé", "effet": "Mauvais état : L'arme a 1 chance sur 3 de se briser en attaquant avec", "classe": "F - F/P" },
+		{ "number": 0, "nom": "Griffes en argent", "desc": "Des griffes en argent", "effet": "Argent : Dégâts normaux contre les monstres", "classe": "F - F/P" },
+		{ "number": 0, "nom": "Griffes en fer", "desc": "Des griffes en fer classique", "effet": "Aucun", "classe": "F - F/P" },
+	//Armures tissu
+		{ "number": 0, "nom": "Capuche en haillon", "desc": "Une capuche en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Tunique en haillon", "desc": "Tunique en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Pantalon en haillon", "desc": "Pantalon en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Chausses en haillons", "desc": "Chausses en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },],
 	"peuCommun": [
 		{ "number": 0, "nom": "Arc solide", "desc": "Un arc puissant", "effet": "Aucun" },
 		{ "number": 0, "nom": "Épée bâtarde", "desc": "Épée bâtarde à double tranchant", "effet": "Double coup : Une fois par attaque, vous avez 15% de chance d'infliger une deuxième fois la moitié des dégâts infligés par le premier coup" },],
