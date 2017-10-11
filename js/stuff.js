@@ -54,9 +54,41 @@ var stuff = {
 		{ "number": 0, "nom": "Griffes en fer", "desc": "Des griffes en fer classique", "effet": "Aucun", "classe": "F - F/P" },
 	//Armures tissu
 		{ "number": 0, "nom": "Capuche en haillon", "desc": "Une capuche en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
-		{ "number": 0, "nom": "Tunique en haillon", "desc": "Tunique en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
-		{ "number": 0, "nom": "Pantalon en haillon", "desc": "Pantalon en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
-		{ "number": 0, "nom": "Chausses en haillons", "desc": "Chausses en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },],
+		{ "number": 0, "nom": "Tunique en haillon", "desc": "Une Tunique en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Pantalon en haillon", "desc": "Un Pantalon en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Chausses en haillon", "desc": "Des Chausses en tissu miteux", "effet": "Miteux : Armure diminuée de 1", "classe": "S - S/F" },
+
+		{ "number": 0, "nom": "Capuche en lin", "desc": "Une capuche en lin", "effet": "Aucun", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Tunique en lin", "desc": "Une tunique en lin", "effet": "Aucun", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Pantalon en lin", "desc": "Un pantalon en lin", "effet": "Aucun", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Chausses en lin", "desc": "Des chausses en lin", "effet": "Aucun", "classe": "S - S/F" },
+
+		{ "number": 0, "nom": "Capuche en lin de qualité", "desc": "Une capuche en lin de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Tunique en lin de qualité", "desc": "Une tunique en lin de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Pantalon en lin de qualité", "desc": "Un pantalon en lin de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "S - S/F" },
+		{ "number": 0, "nom": "Chausses en lin de qualité", "desc": "Des chausses en lin de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "S - S/F" },
+	//Armures cuir
+		{ "number": 0, "nom": "Chapeau en cuir percé", "desc": "Une Chapeau en cuir percé", "effet": "Mauvais état : Armure diminuée de 1", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Pourpoint en cuir percé", "desc": "Un Pourpoint en cuir percé", "effet": "Mauvais état : Armure diminuée de 1", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Guenille en cuir percé", "desc": "Des Guenilles en cuir percé", "effet": "Mauvais état : Armure diminuée de 1", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Chaussures en cuir percé", "desc": "Des Chaussures en cuir percé", "effet": "Mauvais état : Armure diminuée de 1", "classe": "F - F/S" },
+
+		{ "number": 0, "nom": "Chapeau en cuir", "desc": "Une Chapeau en cuir", "effet": "Aucun", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Pourpoint en cuir", "desc": "Un Pourpoint en cuir", "effet": "Aucun", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Guenille en cuir", "desc": "Des Guenilles en cuir", "effet": "Aucun", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Chaussures en cuir", "desc": "Des Chaussures en cuir", "effet": "Aucun", "classe": "F - F/S" },
+
+		{ "number": 0, "nom": "Chapeau en cuir de qualité", "desc": "Une Chapeau en cuir de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Pourpoint en cuir de qualité", "desc": "Un Pourpoint en cuir de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Guenille en cuir de qualité", "desc": "Des Guenilles en cuir de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "F - F/S" },
+		{ "number": 0, "nom": "Chaussures en cuir de qualité", "desc": "Des Chaussures en cuir de qualité", "effet": "Qualité supérieure : Bonus à l'armure de 1", "classe": "F - F/S" },],
+	//Armures maille
+
+
+
+
+
+
 	"peuCommun": [
 		{ "number": 0, "nom": "Arc solide", "desc": "Un arc puissant", "effet": "Aucun" },
 		{ "number": 0, "nom": "Épée bâtarde", "desc": "Épée bâtarde à double tranchant", "effet": "Double coup : Une fois par attaque, vous avez 15% de chance d'infliger une deuxième fois la moitié des dégâts infligés par le premier coup" },],
