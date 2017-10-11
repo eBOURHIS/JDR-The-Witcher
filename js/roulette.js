@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 	var gold = 50;
-	qr('#play').addEventListener('click', function (e) {
+	qr('#play').addEventListener('click', function () {
 		if (gold >= 50) {
 			gold = gold - 0;
 			loot();
@@ -38,17 +38,17 @@ document.addEventListener("DOMContentLoaded", function () {
 			qr('#inventaire').innerHTML += "<tr id='i" + id + "'>";
 			qr('#i' + id).innerHTML = "";
 			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['nom'] + "</td>";
-			qr('#i' + id).innerHTML += "<td>" + item['number'] + "</td>";
-			qr('#i' + id).innerHTML += "<td>" + item['desc'] + "</td></tr>";
-			qr('#i' + id).innerHTML += "<td>" + item['effet'] + "</td></tr>";
-			qr('#i' + id).innerHTML += "<td>" + item['classe'] + "</td></tr>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['number'] +  "</td>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['desc'] +  "</td></tr>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['effet'] +  "</td></tr>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['classe'] +  "</td></tr>";
 		} else {
 			qr('#i' + id).innerHTML = "";
 			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['nom'] + "</td>";
-			qr('#i' + id).innerHTML += "<td>" + item['number'] + "</td>";
-			qr('#i' + id).innerHTML += "<td>" + item['desc'] + "</td></tr>";
-			qr('#i' + id).innerHTML += "<td>" + item['effet'] + "</td></tr>";
-			qr('#i' + id).innerHTML += "<td>" + item['classe'] + "</td></tr>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['number'] + "</td>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['desc'] + "</td></tr>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['effet'] + "</td></tr>";
+			qr('#i' + id).innerHTML += "<td class='" + rarity + "'>" + item['classe'] + "</td></tr>";
 
 		}
 
