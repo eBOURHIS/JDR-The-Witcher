@@ -1,1 +1,1 @@
-# JDR-The-Witcher
+# Lotery JS
